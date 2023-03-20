@@ -1,0 +1,40 @@
+.my-container{
+    width: 90vw;
+    margin: 40px auto;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    min-height: 60vh;
+    gap: 60px;
+}
+
+.my-card{
+   
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 7px 25px #ccc;
+}
+
+
+
+.my-card a{
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: green;
+}
+.my-card p {
+    color: lightslategray;
+}
+
+@media screen and (max-width:425px) {
+   
+    .posts{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        /* grid-auto-rows: 570px; */
+        gap: 20px;
+    }
+}

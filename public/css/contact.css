@@ -1,0 +1,106 @@
+:root {
+    --color-1: #1e90ff;
+    --color-2: darkorange;
+    --white: #ffffff;
+}
+
+
+.contact{
+    
+    padding: 24px 80px;
+}
+
+.contact .contact-headings h1{
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 19px 0;
+}
+.contact-headings .icon{
+    text-align: center;
+}
+.contact .contact-headings h2{
+    text-align: center;
+    margin: 38px 0;
+    letter-spacing: 3px;
+}
+
+.contact .form-inp{
+    width: 60vw;
+    display: grid;
+    margin: 34px auto;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 30px;
+}
+
+.contact .form-inp input{
+    height: 44px;
+    text-align: center;
+    outline: none;
+    border:2px solid var(--color-1);
+    letter-spacing: 2px;
+
+}
+
+.contact .form-inp input:focus{
+    box-shadow: 1px 1px 3px 1px var(--color-1);
+}
+
+.contact .form-messege{
+    width: 60vw;
+    margin: 20px auto;
+    display: grid;
+}
+.contact .form-messege textarea{
+    border: 2px solid var(--color-1);
+    outline: none;
+    padding: 15px 20px;
+}
+.contact .form-messege textarea:focus{
+    box-shadow: 1px 1px 3px 1px var(--color-1);
+}
+
+.contact .form-btn{
+    text-align: center;
+    margin:50px 0;
+}
+.contact .form-btn button{
+   outline: none;
+   border: none;
+    background-color: var(--color-1);
+    color: white;
+    letter-spacing: 1px;
+    font-size: 19px;
+    padding: 8px 28px;
+    transition-duration: 0.6s;
+}
+
+.form-btn button:hover{
+    background-color:var(--white);
+    color: var(--color-1);
+    border: 2px solid var(--color-1);
+}
+
+
+
+
+
+
+@media screen and (max-width:784px) {
+    .contact .contact-headings h2{
+        font-size: 25px;
+    }
+
+    .contact .form-inp {
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+        width: 80vw;
+    }
+    .contact .form-messege{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:562px) {
+    .contact{
+        padding: 60px 40px;
+    }
+}

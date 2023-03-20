@@ -1,0 +1,21 @@
+.my-container{
+    width: 60vw;
+    margin: 50px auto;
+    box-shadow: 2px 3px 16px #ccc;
+    border-radius: 5px;
+    padding: 18px 23px;
+}
+.my-container h1{
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:752px) {
+   
+    .my-container{
+        width: 80vw;
+        margin: 50px auto;
+        box-shadow: 2px 3px 16px #ccc;
+        border-radius: 5px;
+        padding: 18px 23px;
+    }
+}

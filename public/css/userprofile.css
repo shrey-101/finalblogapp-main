@@ -1,0 +1,38 @@
+.pro-head{
+    text-align: center;
+    margin: 15px 0;
+    letter-spacing: 2px;
+}
+.image{
+    width: 220px;
+    height: 220px;
+    background-color: #ccc;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 25px 0;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.profile-section{
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-section-content{
+   box-shadow: 2px 3px 37px #ccc;
+    padding: 25px 60px;
+}
+.profile-section-content p{
+    margin: 8px 0;
+    font-size: 22px;
+}
+
+@media screen and (max-width:424px) {
+    .profile-section-content{
+        padding: 12px 12px;
+    }
+}

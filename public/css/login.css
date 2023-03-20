@@ -1,0 +1,50 @@
+.main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+.login{
+    padding: 40px;
+    box-shadow: 4px 5px 37px #ccc;
+}
+.login-head{
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.login-content{
+    display: grid;
+}
+.login-content input{
+   
+    width: 250px;
+    margin: 12px 0;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    padding: 5px 8px;
+}
+#submit-btn{
+    margin: 12px 0;
+    padding: 5px 8px;
+    outline: none;
+    letter-spacing: 2px;
+    border: none;
+    background: #1e90ff;
+    font-size: 18px;
+    color: white;
+    transition-duration: 0.8s;
+}
+#submit-btn:hover{
+    background-color: white;
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+}
+#ref{
+    text-align: center;
+    margin: 12px 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
